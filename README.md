@@ -101,9 +101,8 @@ The last step will compile ClearMap and can take up to 20 minutes.
 
 In a console run:
 
-    > cd ~
-    > mkdir .clearmap
-    > cd ClearMap
+    > conda activate clearmap  # unless already activated
+    > mkdir -pv ~/.clearmap
     > python -m ClearMap.config.update_config 
 
 ### Run ClearMap
